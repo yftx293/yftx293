@@ -1,20 +1,31 @@
+<p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <img src="./assets/hero-light.svg" width="100%" alt="Yu · 持续学习 AI，构建可靠的系统，打磨好用的产品。 · 在代码之外，也喜欢音乐与文学。">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg">
+  <img src="./assets/terminal-light.svg" width="100%" alt="Yu · Agent Engineering">
 </picture>
+</p>
+
+持续学习 AI，构建可靠的 Agent 系统，打磨好用的产品。代码之外，喜欢音乐与文学。
+
+## OpenDot
+
+一个可自托管的个人 AI 助手与团队工作台。把任务交给 Agent，随时查看进度和处理授权，换一台设备也能接着做。
+
+**[查看源码](https://github.com/yftx293/OpenDot)** · [查看界面](https://github.com/yftx293/OpenDot#界面与体验) · [下载桌面预览版](https://github.com/yftx293/OpenDot/releases/latest)
+
+## 开源贡献
 
 <!-- CONTRIB:BEGIN -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-dark.svg">
-  <img src="./assets/contrib-light.svg" width="100%" alt="公开开源贡献：12 个已合并 PR，涉及 5 个其他账号的公开仓库；数据核实于 2026-11-03">
-</picture>
+**31 个公开 PR 已合并**，分布在 6 个仓库，其中 25 个在 OpenHands SDK。 [查看全部 PR](https://github.com/search?q=author%3Ayftx293+is%3Apr+is%3Amerged+is%3Apublic+-user%3Ayftx293&type=pullrequests) · 2026-11-19
+
+- [OpenHands SDK #6386](https://github.com/OpenHands/software-agent-sdk/pull/6386) 修复可空数组和对象的 JSON Schema 转换，保留嵌套参数结构。
+- [OpenHands SDK #6581](https://github.com/OpenHands/software-agent-sdk/pull/6581) 修复 LLM 实例重新注册时丢失累计 Token 和成本统计的问题。
 <!-- CONTRIB:END -->
 
-[查看已合并的公开 PR](https://github.com/search?q=author%3Ayftx293+is%3Apr+is%3Amerged+is%3Apublic+-user%3Ayftx293&type=pullrequests) · [OpenHands SDK](https://github.com/OpenHands/software-agent-sdk/pulls?q=is%3Apr+is%3Amerged+author%3Ayftx293) · [Octop](https://github.com/TencentCloud/Octop/pulls?q=is%3Apr+is%3Amerged+author%3Ayftx293) · [sktime](https://github.com/sktime/sktime/pulls?q=is%3Apr+is%3Amerged+author%3Ayftx293) · [AG2](https://github.com/ag2ai/ag2/pulls?q=is%3Apr+is%3Amerged+author%3Ayftx293) · [octop-harness](https://github.com/TencentCloud/octop-harness/pulls?q=is%3Apr+is%3Amerged+author%3Ayftx293)
+## 更多作品
 
-## 代表作品
+- **[TinyCode](https://github.com/yftx293/tinycode)** — 用 Pi Agent Core 重实现终端 Coding Agent，探索工具权限、上下文管理和会话恢复。
+- **[Folio](https://github.com/yftx293/folio)** — 本地优先的 AI 投研工作台，把结构化数据、研究证据和 Agent 协作放进同一个桌面应用。
+- **[ShipCost AI](https://github.com/yftx293/shipcost-ai)** — 根据模型用量和调用频率，估算 Chatbot、RAG 和 Agent 应用的月度成本。
 
-- **[TinyCode](<https://github.com/yftx293/tinycode>)**：基于 Pi Agent Core 的终端 Coding Agent 学习型重实现，探索工具权限、会话恢复、Context 管理、Skills、MCP 与只读子 Agent。
-- **[企业客服 Agentic RAG](<https://github.com/yftx293/enterprise-customer-service-agentic-rag>)**：从开源客服项目改造的中文场景应用：用 LangGraph 串联多来源检索、订单查询、工单流转和轻量评测。
-- **[ShipCost AI](<https://github.com/yftx293/shipcost-ai>)**：面向 Chatbot、RAG 与 Agent 应用的 API 成本规划工具，把使用频率、模型调用次数和 Token 用量转换为月度成本与预算容量。
-- **[Folio](<https://github.com/yftx293/folio>)**：持续开发与重构的本地优先 AI 投研工作台，围绕结构化数据、研究证据与 Agent 协作组织桌面体验。
+**[技术博客](https://blog-sandy-psi-42.vercel.app/)** · [Agent 跑到一半断了，下一次从哪接上？](https://blog-sandy-psi-42.vercel.app/blog/20261114-durable-agent-recovery/post)
