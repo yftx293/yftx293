@@ -7,11 +7,11 @@
 
 持续学习 AI，构建可靠的 Agent 系统，打磨好用的产品。代码之外，喜欢音乐与文学。
 
-## OpenDot
+## [OpenDot](https://github.com/yftx293/OpenDot)
 
 一个可自托管的个人 AI 助手与团队工作台。把任务交给 Agent，随时查看进度和处理授权，换一台设备也能接着做。
 
-**[查看源码](https://github.com/yftx293/OpenDot)** · [查看界面](https://github.com/yftx293/OpenDot#界面与体验) · [下载桌面预览版](https://github.com/yftx293/OpenDot/releases/latest)
+[查看界面](https://github.com/yftx293/OpenDot#界面与体验) · [下载桌面预览版](https://github.com/yftx293/OpenDot/releases/latest)
 
 ## 开源贡献
 
